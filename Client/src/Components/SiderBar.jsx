@@ -3,7 +3,7 @@ import { FaChevronRight, FaRegCalendarAlt, FaRegChartBar, FaRegSun, FaStickyNote
 
 const SiderBar = () => {
   return (
-    <div className='bg-[#4E73DF] h-screen '>
+    <div className='bg-[#4E73DF] h-screen  '>
         <div className='px-[15px] py-[30px] flex items-center justify-center border-b-[1px] border-[#EDEDED]/[0.3]'>
            <h1 className='text-white text-[20px] leading-[24px] font-extrabold cursor-pointer'>Admin panel</h1>
         </div>
