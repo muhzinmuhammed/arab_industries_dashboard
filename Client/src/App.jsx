@@ -1,14 +1,17 @@
+import SiderBar from "./Components/SiderBar"
 
 function App() {
  
 
   return (
-    <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="flex">
+      <div className="basis-[12%] border h-[100vh]">
+        <SiderBar/>
+      </div>
+      <div  className="basis-[88%] border">DD</div>
+    
 
-     </>
+     </div>
   )
 }
 
